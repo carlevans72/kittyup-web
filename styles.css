@@ -862,9 +862,10 @@ dd {
   display: inline-flex;
   align-items: center;
   gap: 6px;
+  margin-left: 14px;
   margin-top: -2px;
   color: var(--navy);
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .story-subtext .material-symbols-rounded {
@@ -963,6 +964,11 @@ dd {
   background: rgba(255, 255, 255, 0.94);
 }
 
+.story-card--extras .small-tag {
+  padding: 6px 14px;
+  font-size: 0.86rem;
+}
+
 .story-card--extras h3 {
   position: absolute;
   width: 1px;
@@ -983,7 +989,7 @@ dd {
   padding: 8px 0 0;
   margin: 0;
   list-style: none;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .extras-list li {
@@ -1062,7 +1068,7 @@ dd {
   margin: 0;
   list-style: none;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .trust-points li {
