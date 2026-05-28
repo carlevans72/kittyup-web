@@ -1047,18 +1047,6 @@ dd {
     linear-gradient(135deg, rgba(255, 255, 255, 0.96) 0%, rgba(247, 243, 255, 0.9) 62%, rgba(255, 255, 255, 0.94) 100%);
 }
 
-.waitlist-panel::after {
-  content: "♡";
-  position: absolute;
-  right: 22px;
-  bottom: -18px;
-  color: var(--purple);
-  font-family: "Bradley Hand", "Comic Sans MS", cursive;
-  font-size: 4rem;
-  transform: rotate(-8deg);
-  opacity: 0.72;
-}
-
 .waitlist-copy p:not(.eyebrow) {
   max-width: 360px;
   color: var(--navy);
@@ -1068,19 +1056,19 @@ dd {
 
 .trust-points {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  grid-template-columns: 1fr;
+  gap: 12px;
   padding: 28px 0 0;
   margin: 0;
   list-style: none;
-  font-size: 0.78rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .trust-points li {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
 }
 
 .trust-points span {
