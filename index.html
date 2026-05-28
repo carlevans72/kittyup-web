@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="KittyUp helps community organisers collect payments upfront, cover venue costs, and build a community kitty for quiet weeks and group expenses."
+    />
+    <title>KittyUp | Stop being out of pocket on quiet nights.</title>
+    <link rel="icon" href="assets/kittyup-logo.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- MailerLite Universal -->
+    <script>
+      (function (w, d, e, u, f, l, n) {
+        w[f] =
+          w[f] ||
+          function () {
+            (w[f].q = w[f].q || []).push(arguments);
+          };
+        l = d.createElement(e);
+        l.async = 1;
+        l.src = u;
+        n = d.getElementsByTagName(e)[0];
+        n.parentNode.insertBefore(l, n);
+      })(window, document, "script", "https://assets.mailerlite.com/js/universal.js", "ml");
+      ml("account", "2374037");
+    </script>
+    <!-- End MailerLite Universal -->
+  </head>
+  <body>
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="#top" aria-label="KittyUp home">
+        <img class="brand__mark" src="assets/kittyup-logo.png" alt="" />
+        <span class="brand__text">Kitty<span>Up</span></span>
+      </a>
+      <a class="button button--ghost" href="#waitlist">Join the waitlist</a>
+    </header>
+
+    <main id="top">
+      <!-- Hero: demand-validation messaging plus an HTML/CSS app preview. -->
+      <section class="hero section-shell" aria-labelledby="hero-title">
+        <div class="hero__copy">
+          <p class="eyebrow">
+            <span class="eyebrow__item">Upfront payments</span>
+            <span class="eyebrow__dot" aria-hidden="true">.</span>
+            <span class="eyebrow__item">Cover costs</span>
+            <span class="eyebrow__dot" aria-hidden="true">.</span>
+            <span class="eyebrow__item">Community kitty</span>
+          </p>
+          <h1 id="hero-title">Stop being out of pocket on quiet nights.</h1>
+          <p class="hero__lead">
+            KittyUp helps community organisers collect money upfront, cover venue &amp; session costs, and build a
+            <strong class="concept-mark">community kitty</strong> for quiet weeks and group expenses.
+          </p>
+
+          <ul class="hero-points" aria-label="KittyUp benefits">
+            <li>
+              <span class="point-icon material-symbols-rounded" aria-hidden="true">check_circle</span>
+              <span>Take payment before people attend</span>
+            </li>
+            <li>
+              <span class="point-icon material-symbols-rounded" aria-hidden="true">credit_card</span>
+              <span>Cover venues, halls and session costs</span>
+            </li>
+            <li>
+              <span class="point-icon material-symbols-rounded" aria-hidden="true">groups</span>
+              <span>Keep the community kitty visible</span>
+            </li>
+            <li>
+              <span class="point-icon material-symbols-rounded" aria-hidden="true">sentiment_satisfied</span>
+              <span>No treasurer or committee needed</span>
+            </li>
+          </ul>
+
+          <div class="hero-actions">
+            <a class="button button--primary" href="#waitlist">
+              Join the waitlist
+              <span class="material-symbols-rounded" aria-hidden="true">arrow_forward</span>
+            </a>
+            <p class="hand-note hand-note--cta">
+              <svg class="cta-note__arrow" viewBox="0 0 74 28" aria-hidden="true" focusable="false">
+                <path class="cta-note__arrow-line" d="M70 16 C52 7, 28 8, 9 17" />
+                <path class="cta-note__arrow-head" d="M10 17 C16 12, 20 8, 24 4" />
+                <path class="cta-note__arrow-head" d="M10 17 C16 20, 21 23, 25 26" />
+              </svg>
+              Help shape the beta
+            </p>
+          </div>
+        </div>
+
+        <div class="hero__visual" aria-label="KittyUp payment preview">
+          <div class="phone-wrap">
+            <div class="phone" role="img" aria-label="Phone mockup showing a KittyUp session payment screen">
+              <div class="phone__bezel"></div>
+              <div class="phone__screen">
+                <div class="phone__status">
+                  <span>9:41</span>
+                  <span class="phone__notch" aria-hidden="true"></span>
+                  <span class="phone__status-icons" aria-hidden="true">
+                    <span class="material-symbols-rounded">signal_cellular_alt</span>
+                    <span class="material-symbols-rounded">wifi</span>
+                    <span class="material-symbols-rounded">battery_full</span>
+                  </span>
+                </div>
+                <div class="phone__topbar">
+                  <span class="material-symbols-rounded" aria-hidden="true">arrow_back_ios_new</span>
+                  <span class="material-symbols-rounded" aria-hidden="true">ios_share</span>
+                </div>
+
+                <section class="session-card session-card--plain" aria-label="Session details">
+                  <h2>Thursday Pickleball</h2>
+                  <p>23 May · 7:00 - 9:00pm</p>
+                  <p>Riverside Sports Centre</p>
+                  <span class="mini-pill">8 / 12 attendees booked</span>
+                </section>
+
+                <section class="session-card" aria-label="Session cost">
+                  <div class="card-heading">
+                    <h3>Session cost</h3>
+                    <span class="mini-pill"><span class="material-symbols-rounded" aria-hidden="true">check</span> Venue booked</span>
+                  </div>
+                  <p class="price">£6.50</p>
+                  <p class="price-label">per attendee</p>
+                  <dl class="cost-list">
+                    <div>
+                      <dt>£6.00 to the session</dt>
+                      <dd>£6.00</dd>
+                    </div>
+                    <div>
+                      <dt>£0.50 booking fee (per payment)</dt>
+                      <dd>£0.50</dd>
+                    </div>
+                  </dl>
+                  <div class="total-row">
+                    <span>Total to pay today</span>
+                    <strong>£6.50</strong>
+                  </div>
+                  <button class="phone-button" type="button">Reserve my place</button>
+                  <p class="secure-text">Secure payment by card</p>
+                </section>
+
+                <section class="session-card kitty-card" aria-label="Community kitty balance">
+                  <img src="assets/kittyup-logo.png" alt="" />
+                  <div>
+                    <h3>Community kitty</h3>
+                    <p class="kitty-balance">£142.00</p>
+                    <p>Current balance</p>
+                  </div>
+                  <span class="material-symbols-rounded" aria-hidden="true">chevron_right</span>
+                  <footer>Healthy · Last updated today, 9:30am</footer>
+                </section>
+              </div>
+            </div>
+          </div>
+          <p class="hand-note hand-note--phone">
+            <span class="phone-note__rays" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            <span class="phone-note__text">Everyone can see the cost and the community kitty.</span>
+            <svg class="phone-note__arrow" viewBox="0 0 74 64" aria-hidden="true" focusable="false">
+              <path d="M64 7 C63 31, 48 48, 17 51" />
+              <path d="M17 51 C23 45, 27 40, 31 34" />
+              <path d="M17 51 C24 55, 31 58, 38 59" />
+            </svg>
+          </p>
+        </div>
+      </section>
+
+      <!-- Community kitty positioning: casual transparency, not finance software. -->
+      <section class="community section-shell" aria-labelledby="community-title">
+        <div class="section-card">
+          <h2 id="community-title">How the community kitty works</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-illo feature-illo--kitty" aria-hidden="true">
+                <span class="feature-illo__main material-symbols-rounded">account_balance_wallet</span>
+                <span class="feature-illo__badge material-symbols-rounded">paid</span>
+              </div>
+              <h3>Rolling balance</h3>
+              <p>Busy sessions build the kitty for quieter weeks.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-illo feature-illo--people" aria-hidden="true">
+                <span class="feature-illo__main material-symbols-rounded">groups</span>
+                <span class="feature-illo__badge material-symbols-rounded">visibility</span>
+              </div>
+              <h3>Transparency</h3>
+              <p>Everyone can see what came in, what went out, and what is left.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-illo feature-illo--calendar" aria-hidden="true">
+                <span class="feature-illo__main material-symbols-rounded">event_repeat</span>
+                <span class="feature-illo__badge material-symbols-rounded">check</span>
+              </div>
+              <h3>Session impact</h3>
+              <p>Know whether a night topped up the kitty or needed support.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-illo feature-illo--basket" aria-hidden="true">
+                <span class="feature-illo__main material-symbols-rounded">sports_tennis</span>
+                <span class="feature-illo__badge material-symbols-rounded">add</span>
+              </div>
+              <h3>Top-ups</h3>
+              <p>Use it for balls, nets, kit, art supplies and more.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="story section-shell" aria-labelledby="story-title">
+        <div class="section-heading">
+          <h2 id="story-title">See each session’s money story</h2>
+          <p>Keep things clear without needing a treasurer or committee.</p>
+        </div>
+
+        <div class="story-grid">
+          <article class="story-card story-card--breakdown">
+            <header class="story-card__top">
+              <h3>Thu 16 May · Pickleball</h3>
+              <span>10 / 12 spots</span>
+            </header>
+            <dl class="story-rows">
+              <div>
+                <dt>Cost of venue</dt>
+                <dd>£48.00</dd>
+              </div>
+              <div>
+                <dt>Attendee contributions (10 × £6.00)</dt>
+                <dd>£60.00</dd>
+              </div>
+              <div>
+                <dt>Extra top-up this session</dt>
+                <dd>£10.00</dd>
+              </div>
+            </dl>
+            <p class="story-subtext">New balls <span class="material-symbols-rounded" aria-hidden="true">sports_tennis</span></p>
+            <div class="impact-row">
+              <div>
+                <span>Session impact</span>
+                <small>Added to community kitty</small>
+              </div>
+              <strong>+ £22.00</strong>
+            </div>
+          </article>
+
+          <article class="story-card">
+            <h3>How it was covered</h3>
+            <div class="coverage-list">
+              <div class="coverage-item">
+                <span class="coverage-icon coverage-icon--green material-symbols-rounded" aria-hidden="true">account_balance_wallet</span>
+                <div>
+                  <strong>Covered by kitty</strong>
+                  <p>The community kitty helped cover a quiet night.</p>
+                </div>
+                <b>£6.00</b>
+              </div>
+              <div class="coverage-item">
+                <span class="coverage-icon coverage-icon--yellow material-symbols-rounded" aria-hidden="true">account_circle</span>
+                <div>
+                  <strong>Covered by organiser</strong>
+                  <p>The organiser was left out of pocket.</p>
+                </div>
+                <b>£12.00</b>
+              </div>
+              <div class="coverage-item">
+                <span class="coverage-icon coverage-icon--mint material-symbols-rounded" aria-hidden="true">add_circle</span>
+                <div>
+                  <strong>Added to kitty</strong>
+                  <p>A busy session rolled money forward.</p>
+                </div>
+                <b>£20.00</b>
+              </div>
+            </div>
+          </article>
+
+          <article class="story-card story-card--extras">
+            <p class="small-tag">Examples of extras</p>
+            <h3>Examples of extras</h3>
+            <p>Add a small top-up when the group needs to cover more than the venue.</p>
+            <ul class="extras-list">
+              <li><span class="material-symbols-rounded" aria-hidden="true">sports_tennis</span> New balls</li>
+              <li><span class="material-symbols-rounded" aria-hidden="true">palette</span> Paint &amp; art supplies</li>
+              <li><span class="material-symbols-rounded" aria-hidden="true">extension</span> Games &amp; activity kit</li>
+              <li><span class="material-symbols-rounded" aria-hidden="true">local_dining</span> Social / food</li>
+              <li><span class="material-symbols-rounded" aria-hidden="true">add</span> Other group expenses</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="waitlist section-shell" id="waitlist" aria-labelledby="waitlist-title">
+        <div class="waitlist-panel">
+          <div class="waitlist-copy">
+            <p class="eyebrow eyebrow--purple">Be first in line</p>
+            <h2 id="waitlist-title">Join the waitlist</h2>
+            <p>Take part in the beta and help shape KittyUp around real sessions.</p>
+            <ul class="trust-points" aria-label="Waitlist notes">
+              <li><span class="material-symbols-rounded" aria-hidden="true">check</span> No commitment</li>
+              <li><span class="material-symbols-rounded" aria-hidden="true">shield_lock</span> Secure &amp; private</li>
+              <li><span class="material-symbols-rounded" aria-hidden="true">notifications_paused</span> You can opt out anytime</li>
+            </ul>
+          </div>
+
+          <div class="ml-embedded" data-form="P1u5Zv"></div>
+
+          <!-- Existing static form kept temporarily:
+          MailerLite integration point:
+               Replace the action URL with your MailerLite embedded form endpoint.
+               Keep method="post" and the field name attributes aligned with your MailerLite fields.
+          <form
+            class="waitlist-form"
+            action="https://assets.mailerlite.com/jsonp/YOUR_ACCOUNT_ID/forms/YOUR_FORM_ID/subscribe"
+            method="post"
+            target="ml-submit-frame"
+          >
+            <div class="form-row">
+              <label>
+                <span>Your name</span>
+                <input type="text" name="fields[name]" placeholder="Your name" autocomplete="name" required />
+              </label>
+              <label>
+                <span>Email address</span>
+                <input type="email" name="fields[email]" placeholder="Email address" autocomplete="email" required />
+              </label>
+            </div>
+
+            <label>
+              <span>Do you organise sessions?</span>
+              <select name="fields[organises_sessions]" required>
+                <option value="">Do you organise sessions?</option>
+                <option value="Yes, regularly">Yes, regularly</option>
+                <option value="Sometimes">Sometimes</option>
+                <option value="Not yet">Not yet</option>
+                <option value="I mostly attend">I mostly attend</option>
+              </select>
+            </label>
+
+            <label>
+              <span>What do you organise?</span>
+              <input
+                type="text"
+                name="fields[group_activity]"
+                aria-label="What do you organise? e.g. Pickleball, painting class, badminton"
+                placeholder="What do you organise? e.g. Pickleball or painting class"
+              />
+            </label>
+
+            <label>
+              <span>What leaves you out of pocket or chasing people?</span>
+              <textarea
+                name="fields[biggest_headache]"
+                rows="3"
+                placeholder="Late drop-outs, no-shows, venue deposits, chasing bank transfers..."
+              ></textarea>
+            </label>
+
+            <input type="hidden" name="ml-submit" value="1" />
+            <button class="button button--primary" type="submit">Join the waitlist</button>
+            <p class="form-small">No spam. Unsubscribe anytime.</p>
+            <p class="form-message" role="status" aria-live="polite"></p>
+          </form>
+          <iframe class="submit-frame" name="ml-submit-frame" title="Waitlist form submission"></iframe>
+          -->
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand brand--footer" href="#top" aria-label="KittyUp home">
+        <img class="brand__mark" src="assets/kittyup-logo.png" alt="" />
+        <span class="brand__text">Kitty<span>Up</span></span>
+      </a>
+      <p>Built for community organisers who keep real groups moving.</p>
+      <div class="footer-badges" aria-label="KittyUp benefits">
+        <span><span class="material-symbols-rounded" aria-hidden="true">lock</span> Secure payments by card</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

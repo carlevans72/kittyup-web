@@ -1,0 +1,19 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">KittyUp kitty jar logo concept</title>
+  <desc id="desc">A friendly white cat peeking from a green community kitty jar with a yellow coin.</desc>
+  <rect width="512" height="512" rx="96" fill="#09A85A"/>
+  <path d="M112 448c-22 0-40-18-40-40V205c0-35 28-63 63-63h242c35 0 63 28 63 63v203c0 22-18 40-40 40H112Z" fill="#73D89A"/>
+  <path d="M112 448c-22 0-40-18-40-40V205c0-35 28-63 63-63h242c35 0 63 28 63 63v203c0 22-18 40-40 40H112Z" stroke="#06194B" stroke-width="17" stroke-linejoin="round"/>
+  <path d="M94 181h324" stroke="#06194B" stroke-width="20" stroke-linecap="round"/>
+  <path d="M98 174h316" stroke="#A2F0BE" stroke-width="11" stroke-linecap="round"/>
+  <path d="M326 136c30-22 58-32 83-28" stroke="#06194B" stroke-width="19" stroke-linecap="round"/>
+  <path d="M326 136c30-22 58-32 83-28" stroke="#49C878" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="234" cy="102" r="53" fill="#FFD84F" stroke="#06194B" stroke-width="17"/>
+  <circle cx="234" cy="102" r="32" fill="#FFE775" stroke="#D79600" stroke-width="8"/>
+  <path d="M172 344V238l43 40a142 142 0 0 1 82 0l43-40v106c0 60-35 100-84 100s-84-40-84-100Z" fill="#FFFDF7" stroke="#06194B" stroke-width="16" stroke-linejoin="round"/>
+  <path d="M206 318c13-10 26-10 39 0M267 318c13-10 26-10 39 0" stroke="#06194B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M248 351h16l-8 13-8-13Z" fill="#06194B" stroke="#06194B" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M225 382c17 18 45 18 62 0" stroke="#06194B" stroke-width="12" stroke-linecap="round"/>
+  <path d="M175 352h-47M177 379h-45M337 352h47M335 379h45" stroke="#06194B" stroke-width="11" stroke-linecap="round"/>
+  <path d="M123 407c60 28 206 28 266 0" stroke="#34B96C" stroke-width="16" stroke-linecap="round"/>
+</svg>
