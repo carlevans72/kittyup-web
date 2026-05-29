@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="KittyUp helps community organisers collect payments upfront, cover venue costs, and build a community kitty for quiet weeks and group expenses."
+      content="KittyUp helps organisers share sessions, track attendance, and keep a community kitty everyone can see."
     />
     <meta name="robots" content="noindex, nofollow, noarchive, noimageindex" />
     <title>KittyUp | Stop being out of pocket on quiet nights.</title>
@@ -42,35 +42,29 @@
       <!-- Hero: demand-validation messaging plus an HTML/CSS app preview. -->
       <section class="hero section-shell" aria-labelledby="hero-title">
         <div class="hero__copy">
-          <p class="eyebrow">
-            <span class="eyebrow__item">Upfront payments</span>
-            <span class="eyebrow__dot" aria-hidden="true">.</span>
-            <span class="eyebrow__item">Cover costs</span>
-            <span class="eyebrow__dot" aria-hidden="true">.</span>
-            <span class="eyebrow__item">Community kitty</span>
-          </p>
           <h1 id="hero-title">Stop being out of pocket on quiet nights.</h1>
+          <p class="hero__subhead">Share sessions, reserve places and keep the kitty healthy.</p>
           <p class="hero__lead">
-            KittyUp helps community organisers collect money upfront, cover venue &amp; session costs, and build a
-            <strong class="concept-mark">community kitty</strong> for quiet weeks and group expenses.
+            KittyUp helps organisers share session links, track who is coming, and record contributions
+            against a <strong class="concept-mark">community kitty</strong> everyone can see and understand.
           </p>
 
           <ul class="hero-points" aria-label="KittyUp benefits">
             <li>
               <span class="point-icon material-symbols-rounded" aria-hidden="true">check_circle</span>
-              <span>Make upfront payment the norm</span>
+              <span>Share session links for easy reservations</span>
             </li>
             <li>
-              <span class="point-icon material-symbols-rounded" aria-hidden="true">credit_card</span>
-              <span>Cover venues, halls and session costs</span>
+              <span class="point-icon material-symbols-rounded" aria-hidden="true">home_work</span>
+              <span>Record costs,<br />contributions<br />and top-ups</span>
             </li>
             <li>
               <span class="point-icon material-symbols-rounded" aria-hidden="true">groups</span>
-              <span>Keep the community kitty visible</span>
+              <span>Give the group a read-only view of the kitty</span>
             </li>
             <li>
               <span class="point-icon material-symbols-rounded" aria-hidden="true">sentiment_satisfied</span>
-              <span>No treasurer or committee needed</span>
+              <span>No more awkward money moments</span>
             </li>
           </ul>
 
@@ -90,9 +84,9 @@
           </div>
         </div>
 
-        <div class="hero__visual" aria-label="KittyUp payment preview">
+        <div class="hero__visual" aria-label="KittyUp session money preview">
           <div class="phone-wrap">
-            <div class="phone" role="img" aria-label="Phone mockup showing a KittyUp session payment screen">
+            <div class="phone" role="img" aria-label="Phone mockup showing a KittyUp session and community kitty screen">
               <div class="phone__bezel"></div>
               <div class="phone__screen">
                 <div class="phone__status">
@@ -118,23 +112,23 @@
 
                 <section class="session-card" aria-label="Session cost">
                   <div class="card-heading">
-                    <h3>Session cost</h3>
-                    <span class="mini-pill"><span class="material-symbols-rounded" aria-hidden="true">check</span> Venue booked</span>
+                    <h3>Session kitty</h3>
+                    <span class="mini-pill mini-pill--info"><span class="material-symbols-rounded" aria-hidden="true">info</span> 4 places left</span>
                   </div>
                   <p class="price">£6.00</p>
-                  <p class="price-label">per attendee</p>
+                  <p class="price-label">required for the session</p>
                   <dl class="cost-list">
                     <div>
-                      <dt>£6.00 for the session</dt>
+                      <dt>Session contribution</dt>
                       <dd>£6.00</dd>
                     </div>
                     <div>
-                      <dt>£1.00 kitty top-up</dt>
+                      <dt>Optional kitty top-up</dt>
                       <dd>£1.00</dd>
                     </div>
                   </dl>
                   <div class="total-row">
-                    <span>Total to pay today</span>
+                    <span>With optional top-up</span>
                     <strong>£7.00</strong>
                   </div>
                   <button class="phone-button" type="button">Reserve my place</button>
@@ -146,10 +140,6 @@
                     <h3>Community kitty</h3>
                     <p class="kitty-balance">£18.00</p>
                     <p>Current balance</p>
-                    <button class="kitty-topup" type="button">
-                      <span class="material-symbols-rounded" aria-hidden="true">check</span>
-                      Top up kitty
-                    </button>
                   </div>
                   <span class="material-symbols-rounded" aria-hidden="true">chevron_right</span>
                   <footer>Healthy · Last updated today, 9:30am</footer>
@@ -163,7 +153,7 @@
               <span></span>
               <span></span>
             </span>
-            <span class="phone-note__text">Everyone can see the cost and the community kitty.</span>
+            <span class="phone-note__text">Reserve your place. Add a little extra if you can.</span>
             <svg class="phone-note__arrow" viewBox="0 0 74 64" aria-hidden="true" focusable="false">
               <path d="M64 7 C63 31, 48 48, 17 51" />
               <path d="M17 51 C23 45, 27 40, 31 34" />
@@ -176,39 +166,79 @@
       <!-- Community kitty positioning: casual transparency, not finance software. -->
       <section class="community section-shell" aria-labelledby="community-title">
         <div class="section-card">
-          <h2 id="community-title">How the community kitty works</h2>
+          <h2 id="community-title">A simple community kitty everyone can see</h2>
           <div class="feature-grid">
             <article class="feature-card">
               <div class="feature-illo feature-illo--kitty" aria-hidden="true">
                 <span class="feature-illo__main material-symbols-rounded">account_balance_wallet</span>
-                <span class="feature-illo__badge material-symbols-rounded">paid</span>
+                <span class="feature-illo__badge material-symbols-rounded">add_circle</span>
               </div>
-              <h3>Rolling balance</h3>
-              <p>Busy sessions build the kitty for quieter weeks.</p>
+              <h3>Running kitty balance</h3>
+              <p>Track what came in, what went out, and what is left.</p>
             </article>
             <article class="feature-card">
               <div class="feature-illo feature-illo--people" aria-hidden="true">
                 <span class="feature-illo__main material-symbols-rounded">groups</span>
                 <span class="feature-illo__badge material-symbols-rounded">visibility</span>
               </div>
-              <h3>Transparency</h3>
-              <p>Everyone can see what came in, what went out, and what is left.</p>
+              <h3>Member visibility</h3>
+              <p>Share a simple read-only view so the group can trust the numbers.</p>
             </article>
             <article class="feature-card">
               <div class="feature-illo feature-illo--calendar" aria-hidden="true">
                 <span class="feature-illo__main material-symbols-rounded">event_repeat</span>
                 <span class="feature-illo__badge material-symbols-rounded">check</span>
               </div>
-              <h3>Session impact</h3>
-              <p>Know whether a night topped up the kitty or needed support.</p>
+              <h3>Session records</h3>
+              <p>Keep attendance, costs, contributions and notes together.</p>
             </article>
             <article class="feature-card">
               <div class="feature-illo feature-illo--basket" aria-hidden="true">
                 <span class="feature-illo__main material-symbols-rounded">sports_tennis</span>
                 <span class="feature-illo__badge material-symbols-rounded">add</span>
               </div>
-              <h3>Top-ups</h3>
-              <p>Use it for balls, nets, kit, art supplies and more.</p>
+              <h3>Top-up goals</h3>
+              <p>Raise a little extra for balls, nets, kit, art supplies and more.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works section-shell" aria-labelledby="how-title">
+        <div class="section-card">
+          <h2 id="how-title">How it works</h2>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-illo feature-illo--people" aria-hidden="true">
+                <span class="feature-illo__main material-symbols-rounded">forum</span>
+                <span class="feature-illo__badge material-symbols-rounded">ios_share</span>
+              </div>
+              <h3>Share the link</h3>
+              <p>Drop the session link into WhatsApp, Facebook, email or your usual group chat.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-illo feature-illo--calendar" aria-hidden="true">
+                <span class="feature-illo__main material-symbols-rounded">event_available</span>
+                <span class="feature-illo__badge material-symbols-rounded">check</span>
+              </div>
+              <h3>Take reservations</h3>
+              <p>Members can see what is happening, when it is happening and how many places are left.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-illo feature-illo--kitty" aria-hidden="true">
+                <span class="feature-illo__main material-symbols-rounded">add_circle</span>
+                <span class="feature-illo__badge material-symbols-rounded">add</span>
+              </div>
+              <h3>Top up the kitty</h3>
+              <p>Show the required contribution and give members the option to add a little extra.</p>
+            </article>
+            <article class="feature-card">
+              <div class="feature-illo feature-illo--basket" aria-hidden="true">
+                <span class="feature-illo__main material-symbols-rounded">task_alt</span>
+                <span class="feature-illo__badge material-symbols-rounded">done</span>
+              </div>
+              <h3>Mark contributions received</h3>
+              <p>Tick off contributions as they arrive, so the kitty stays visible without a spreadsheet chase.</p>
             </article>
           </div>
         </div>
@@ -216,8 +246,8 @@
 
       <section class="story section-shell" aria-labelledby="story-title">
         <div class="section-heading">
-          <h2 id="story-title">See each session’s money story</h2>
-          <p>Keep things clear without needing a treasurer or committee.</p>
+          <h2 id="story-title">Turn each session into a clear record</h2>
+          <p>Keep the admin light while giving the group a shared view of the kitty.</p>
         </div>
 
         <div class="story-grid">
@@ -232,11 +262,11 @@
                 <dd>£48.00</dd>
               </div>
               <div>
-                <dt>Attendee contributions (10 × £6.00)</dt>
+                <dt>Recorded contributions (10 × £6.00)</dt>
                 <dd>£60.00</dd>
               </div>
               <div>
-                <dt>Extra top-up this session</dt>
+                <dt>Kitty top-ups recorded</dt>
                 <dd>£10.00</dd>
               </div>
             </dl>
@@ -251,12 +281,12 @@
           </article>
 
           <article class="story-card">
-            <h3>How it was covered</h3>
+            <h3>How this session was funded</h3>
             <div class="coverage-list">
               <div class="coverage-item">
                 <span class="coverage-icon coverage-icon--green material-symbols-rounded" aria-hidden="true">account_balance_wallet</span>
                 <div>
-                  <strong>Covered by kitty</strong>
+                  <strong>Kitty support</strong>
                   <p>The community kitty helped cover a quiet night.</p>
                 </div>
                 <b>£6.00</b>
@@ -264,16 +294,16 @@
               <div class="coverage-item">
                 <span class="coverage-icon coverage-icon--yellow material-symbols-rounded" aria-hidden="true">account_circle</span>
                 <div>
-                  <strong>Covered by organiser</strong>
-                  <p>The organiser was left out of pocket.</p>
+                  <strong>Out-of-pocket gap</strong>
+                  <p>The organiser had to cover the shortfall.</p>
                 </div>
                 <b>£12.00</b>
               </div>
               <div class="coverage-item">
                 <span class="coverage-icon coverage-icon--mint material-symbols-rounded" aria-hidden="true">add_circle</span>
                 <div>
-                  <strong>Added to kitty</strong>
-                  <p>Extra money stayed in the kitty.</p>
+                  <strong>Kitty top-up</strong>
+                  <p>Extra contributions stayed in the kitty.</p>
                 </div>
                 <b>£20.00</b>
               </div>
@@ -283,7 +313,7 @@
           <article class="story-card story-card--extras">
             <p class="small-tag">Examples of extras</p>
             <h3>Examples of extras</h3>
-            <p>Add a small top-up when the group needs to cover more than the venue.</p>
+            <p>Add a small top-up goal when the group needs to cover more than the venue.</p>
             <ul class="extras-list">
               <li><span class="material-symbols-rounded" aria-hidden="true">sports_tennis</span> New balls</li>
               <li><span class="material-symbols-rounded" aria-hidden="true">palette</span> Paint &amp; art supplies</li>
@@ -300,9 +330,7 @@
           <div class="waitlist-copy">
             <p class="eyebrow eyebrow--purple">Be first in line</p>
             <h2 id="waitlist-title">Join the waitlist</h2>
-            <p>
-              KittyUp is in early validation. Join the waitlist to help shape how paid sessions should work.
-            </p>
+            <p>Join the waitlist to help shape a lighter way for groups to share sessions, reserve places and keep a visible community kitty.</p>
             <ul class="trust-points" aria-label="Waitlist notes">
               <li><span class="material-symbols-rounded" aria-hidden="true">check</span> No commitment</li>
               <li><span class="material-symbols-rounded" aria-hidden="true">shield_lock</span> Secure &amp; private</li>
@@ -311,65 +339,6 @@
           </div>
 
           <div class="ml-embedded" data-form="P1u5Zv"></div>
-
-          <!-- Existing static form kept temporarily:
-          MailerLite integration point:
-               Replace the action URL with your MailerLite embedded form endpoint.
-               Keep method="post" and the field name attributes aligned with your MailerLite fields.
-          <form
-            class="waitlist-form"
-            action="https://assets.mailerlite.com/jsonp/YOUR_ACCOUNT_ID/forms/YOUR_FORM_ID/subscribe"
-            method="post"
-            target="ml-submit-frame"
-          >
-            <div class="form-row">
-              <label>
-                <span>Your name</span>
-                <input type="text" name="fields[name]" placeholder="Your name" autocomplete="name" required />
-              </label>
-              <label>
-                <span>Email address</span>
-                <input type="email" name="fields[email]" placeholder="Email address" autocomplete="email" required />
-              </label>
-            </div>
-
-            <label>
-              <span>Do you organise sessions?</span>
-              <select name="fields[organises_sessions]" required>
-                <option value="">Do you organise sessions?</option>
-                <option value="Yes, regularly">Yes, regularly</option>
-                <option value="Sometimes">Sometimes</option>
-                <option value="Not yet">Not yet</option>
-                <option value="I mostly attend">I mostly attend</option>
-              </select>
-            </label>
-
-            <label>
-              <span>What do you organise?</span>
-              <input
-                type="text"
-                name="fields[group_activity]"
-                aria-label="What do you organise? e.g. Pickleball, painting class, badminton"
-                placeholder="What do you organise? e.g. Pickleball or painting class"
-              />
-            </label>
-
-            <label>
-              <span>What leaves you out of pocket or chasing people?</span>
-              <textarea
-                name="fields[biggest_headache]"
-                rows="3"
-                placeholder="Late drop-outs, no-shows, venue deposits, chasing bank transfers..."
-              ></textarea>
-            </label>
-
-            <input type="hidden" name="ml-submit" value="1" />
-            <button class="button button--primary" type="submit">Join the waitlist</button>
-            <p class="form-small">No spam. Unsubscribe anytime.</p>
-            <p class="form-message" role="status" aria-live="polite"></p>
-          </form>
-          <iframe class="submit-frame" name="ml-submit-frame" title="Waitlist form submission"></iframe>
-          -->
         </div>
       </section>
     </main>
