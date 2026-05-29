@@ -215,10 +215,6 @@ h1 em {
   font-size: 0.78rem;
 }
 
-.eyebrow__dot {
-  margin: 0 0.42em;
-}
-
 .eyebrow--purple {
   color: #6845c2;
   background: #ece4ff;
@@ -248,6 +244,15 @@ h1 {
 
 h1::first-line {
   letter-spacing: 0;
+}
+
+.hero__subhead {
+  max-width: 620px;
+  margin: -6px 0 14px;
+  color: var(--navy);
+  font-size: clamp(1.35rem, 2.1vw, 2rem);
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .hero__lead {
@@ -496,6 +501,12 @@ h1::first-line {
   font-weight: 700;
 }
 
+.mini-pill.mini-pill--info {
+  border: 1px solid #b8daf7;
+  background: #dff0ff;
+  color: #1769aa;
+}
+
 .card-heading {
   display: flex;
   align-items: center;
@@ -582,25 +593,6 @@ dd {
   font-weight: 700 !important;
 }
 
-.kitty-topup {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  min-height: 28px;
-  margin-top: 7px;
-  border: 1px solid #bbdcca;
-  border-radius: 999px;
-  padding: 0 11px;
-  color: var(--green-dark);
-  background: #f4fbf7;
-  font-size: 0.72rem;
-  font-weight: 800;
-}
-
-.kitty-topup .material-symbols-rounded {
-  font-size: 0.92rem;
-}
-
 .kitty-card footer {
   position: absolute;
   left: 16px;
@@ -678,6 +670,10 @@ dd {
   padding: 34px 0 28px;
 }
 
+.how-it-works {
+  padding: 14px 0 28px;
+}
+
 .section-card,
 .waitlist-panel {
   border-radius: var(--radius);
@@ -706,7 +702,7 @@ dd {
   display: grid;
   justify-items: center;
   align-content: start;
-  gap: 10px;
+  gap: 14px;
   min-height: 190px;
   text-align: center;
   padding: 10px 14px;
@@ -1072,6 +1068,10 @@ dd {
   font-weight: 700;
 }
 
+.waitlist-copy p:not(.eyebrow) + p:not(.eyebrow) {
+  margin-top: 0.7em;
+}
+
 .trust-points {
   display: grid;
   grid-template-columns: 1fr;
@@ -1356,8 +1356,7 @@ textarea:focus {
   }
 
   .hand-note--cta {
-    align-self: center;
-    max-width: none;
+    display: none;
   }
 
   .hero__visual {
@@ -1371,14 +1370,6 @@ textarea:focus {
   }
 
   .hand-note--phone {
-    max-width: 270px;
-    padding: 0;
-    text-align: center;
-    transform: rotate(-2deg);
-  }
-
-  .phone-note__rays,
-  .phone-note__arrow {
     display: none;
   }
 
@@ -1435,29 +1426,6 @@ textarea:focus {
 
   .brand__text {
     font-size: 1.35rem;
-  }
-
-  .eyebrow {
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    align-items: center;
-    border-radius: 18px;
-    padding: 8px 14px;
-    font-size: 0.86rem;
-    line-height: 1.2;
-  }
-
-  .eyebrow__dot {
-    margin: 0 0.48em;
-  }
-
-  .eyebrow__dot:nth-of-type(4) {
-    display: none;
-  }
-
-  .eyebrow__item:last-child {
-    grid-column: 1 / -1;
-    margin-top: 2px;
   }
 
   .hero {
